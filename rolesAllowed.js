@@ -7,11 +7,6 @@ module.exports = function(rolesAllowed, opts) {
 	opts.rolesField = opts.rolesField || "roles";
 
 	function middleware(req, res, next) {
-		if (!opts.roleRequired) {
-			next();
-			return;
-		}
-
 		let rolesProvided = req[opts.rolesField];
 
 		if (rolesProvided) {
