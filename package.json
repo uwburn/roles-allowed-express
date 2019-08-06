@@ -1,6 +1,6 @@
 {
   "name": "roles-allowed-express",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "rolesAllowed.js",
   "description": "Express middleware to check roles on request",
   "author": { 
