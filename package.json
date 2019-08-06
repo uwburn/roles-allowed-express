@@ -1,6 +1,6 @@
 {
   "name": "roles-allowed-express",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "rolesAllowed.js",
   "description": "Express middleware to check roles on request",
   "author": { 
@@ -13,6 +13,6 @@
   },
   "license": "LGPL-3.0",
   "dependencies": {
-    "http-error": "https://github.com/uwburn/http-error.git"
+    "http-error-prototype": "^1.0.0"
   }
 }
